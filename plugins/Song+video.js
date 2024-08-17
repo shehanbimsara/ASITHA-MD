@@ -13,7 +13,7 @@ try{
 
 if(!q) return reply("❌Please give me url or titel")
 const search = await yts(q)
-const deta = search.video[0];
+const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
@@ -62,7 +62,7 @@ try{
 
 if(!q) return reply("❌Please give me url or titel")
 const search = await yts(q)
-const deta = search.video[0];
+const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
