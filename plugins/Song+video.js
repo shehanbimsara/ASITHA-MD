@@ -43,7 +43,7 @@ await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fi
 
   
 
-{catch(e){
+}catch(e){
 console.(e)
 reply(`${e}`)
 }
@@ -92,7 +92,7 @@ await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fil
 
   
 
-{catch(e){
+}catch(e){
 console.(e)
 reply(`${e}`)
 }
