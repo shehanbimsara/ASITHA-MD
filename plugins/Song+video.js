@@ -38,7 +38,7 @@ let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //send audio message 
-await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"*POWERED by ASITHA-MD*"},{quoted:mek})
 await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.titel + ".mp3" ,caption :"*POWERED by ASITHA-MD*"},{quoted:mek})
 
   
@@ -87,7 +87,7 @@ let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
 
 //send video  message 
-await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
+await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"*POWERED by ASITHA-MD*"},{quoted:mek})
 await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fileName:deta.titel + ".mp4",caption :"*POWERED by ASITHA-MD*"},{quoted:mek})
 
   
