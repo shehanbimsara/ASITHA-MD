@@ -19,11 +19,11 @@ const url = deta.url
 let desc= `
 *•.¸♡ ASITHA-MD AUDIO-DOWNLOADER🎶 ♡¸.•*
 |__________________________
-| ❤️‍🩹titel : ${data.titel}
-| ❤️‍🩹description : ${data.description}
-| ❤️‍🩹time : ${data.timestamp}
-| ❤️‍🩹ago : ${data.ago}
-| ❤️‍🩹views : ${data.views}
+| ❤️‍🩹titel : ${deta.titel}
+| ❤️‍🩹description : ${deta.description}
+| ❤️‍🩹time : ${deta.timestamp}
+| ❤️‍🩹ago : ${deta.ago}
+| ❤️‍🩹views : ${deta.views}
 |__________________________
 
 *POWERED by ASITHA-MD*
@@ -68,11 +68,11 @@ const url = deta.url
 let desc= `
 *•.¸♡ ASITHA-MD VIDEO-DOWNLOADER🎶 ♡¸.•*
 |__________________________
-| ❤️‍🩹titel : ${data.titel}
-| ❤️‍🩹description : ${data.description}
-| ❤️‍🩹time : ${data.timestamp}
-| ❤️‍🩹ago : ${data.ago}
-| ❤️‍🩹views : ${data.views}
+| ❤️‍🩹titel : ${deta.titel}
+| ❤️‍🩹description : ${deta.description}
+| ❤️‍🩹time : ${deta.timestamp}
+| ❤️‍🩹ago : ${deta.ago}
+| ❤️‍🩹views : ${deta.views}
 |__________________________
 
 *POWERED by ASITHA-MD*
